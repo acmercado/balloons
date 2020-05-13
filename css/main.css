@@ -1,40 +1,8 @@
 html, body {
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
-
-body {
-  max-width: 90%;
-  margin: 50px auto;
-  font-family: monospace;
-  background-color: #f5e342;
-  color: #000000;
-}
-
 canvas {
-  position: absolute;
-
-  left: 0;
-  right: 0;
-
-  overflow: hidden;
-}
-
-.hidden {
-  display: none;
-  /* visibility: hidden;
-  visibility: visible; */
-    /* see the difference between the two */
-}
-
-div {
-  text-align: center;
-}
-
-script {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 50%;
-  overflow: hidden;
+  display: block;
 }
